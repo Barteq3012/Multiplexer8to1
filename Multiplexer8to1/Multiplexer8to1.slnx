@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../TestMUX/TestMUX.csproj" Id="0d8729c6-3f43-441c-bbf6-371d91c53d1c" />
+  <Project Path="Multiplexer8to1.csproj" />
+</Solution>
