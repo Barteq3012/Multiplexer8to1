@@ -1,192 +1,11 @@
-﻿namespace Multiplexer8to1
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Multiplexer8to1
 {
     partial class Form1
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
-
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
-            radioButton1 = new RadioButton();
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox3 = new CheckBox();
-            checkBox4 = new CheckBox();
-            checkBox5 = new CheckBox();
-            checkBox6 = new CheckBox();
-            checkBox7 = new CheckBox();
-            checkBox8 = new CheckBox();
-            checkBox9 = new CheckBox();
-            checkBox10 = new CheckBox();
-            checkBox11 = new CheckBox();
-            SuspendLayout();
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(560, 186);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(74, 24);
-            radioButton1.TabIndex = 0;
-            radioButton1.Text = "output";
-            radioButton1.UseVisualStyleBackColor = true;
-            radioButton1.MouseDown += RadioButton1_MouseDown;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(45, 21);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(48, 24);
-            checkBox1.TabIndex = 1;
-            checkBox1.Text = "d0";
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(45, 66);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(48, 24);
-            checkBox2.TabIndex = 2;
-            checkBox2.Text = "d1";
-            checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(45, 113);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(48, 24);
-            checkBox3.TabIndex = 3;
-            checkBox3.Text = "d2";
-            checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(45, 163);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(48, 24);
-            checkBox4.TabIndex = 4;
-            checkBox4.Text = "d3";
-            checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            checkBox5.AutoSize = true;
-            checkBox5.Location = new Point(45, 208);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(48, 24);
-            checkBox5.TabIndex = 5;
-            checkBox5.Text = "d4";
-            checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            checkBox6.AutoSize = true;
-            checkBox6.Location = new Point(45, 255);
-            checkBox6.Name = "checkBox6";
-            checkBox6.Size = new Size(48, 24);
-            checkBox6.TabIndex = 6;
-            checkBox6.Text = "d5";
-            checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            checkBox7.AutoSize = true;
-            checkBox7.Location = new Point(45, 305);
-            checkBox7.Name = "checkBox7";
-            checkBox7.Size = new Size(48, 24);
-            checkBox7.TabIndex = 7;
-            checkBox7.Text = "d6";
-            checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            checkBox8.AutoSize = true;
-            checkBox8.Location = new Point(45, 352);
-            checkBox8.Name = "checkBox8";
-            checkBox8.Size = new Size(48, 24);
-            checkBox8.TabIndex = 8;
-            checkBox8.Text = "d7";
-            checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            checkBox9.AutoSize = true;
-            checkBox9.Location = new Point(179, 385);
-            checkBox9.Name = "checkBox9";
-            checkBox9.Size = new Size(45, 24);
-            checkBox9.TabIndex = 9;
-            checkBox9.Text = "s0";
-            checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            checkBox10.AutoSize = true;
-            checkBox10.Location = new Point(314, 385);
-            checkBox10.Name = "checkBox10";
-            checkBox10.Size = new Size(45, 24);
-            checkBox10.TabIndex = 10;
-            checkBox10.Text = "s1";
-            checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            checkBox11.AutoSize = true;
-            checkBox11.Location = new Point(441, 385);
-            checkBox11.Name = "checkBox11";
-            checkBox11.Size = new Size(45, 24);
-            checkBox11.TabIndex = 11;
-            checkBox11.Text = "s2";
-            checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // Form1
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(687, 458);
-            Controls.Add(checkBox11);
-            Controls.Add(checkBox10);
-            Controls.Add(checkBox9);
-            Controls.Add(checkBox8);
-            Controls.Add(checkBox7);
-            Controls.Add(checkBox6);
-            Controls.Add(checkBox5);
-            Controls.Add(checkBox4);
-            Controls.Add(checkBox3);
-            Controls.Add(checkBox2);
-            Controls.Add(checkBox1);
-            Controls.Add(radioButton1);
-            Name = "Form1";
-            Text = "Form1";
-            ResumeLayout(false);
-            PerformLayout();
-        }
-
-        #endregion
 
         private RadioButton radioButton1;
         private CheckBox checkBox1;
@@ -200,5 +19,175 @@
         private CheckBox checkBox9;
         private CheckBox checkBox10;
         private CheckBox checkBox11;
+        private DataGridView dataGridViewTruth;
+        private Panel panelMux;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            components = new System.ComponentModel.Container();
+
+            // tworzenie kontrolek
+            radioButton1 = new RadioButton();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox4 = new CheckBox();
+            checkBox5 = new CheckBox();
+            checkBox6 = new CheckBox();
+            checkBox7 = new CheckBox();
+            checkBox8 = new CheckBox();
+            checkBox9 = new CheckBox();
+            checkBox10 = new CheckBox();
+            checkBox11 = new CheckBox();
+
+            SuspendLayout();
+
+            // ustawienia formularza
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1000, 700);
+            Text = "MUX 8:1 – symulator";
+
+            // title
+            Label labelTitle = new Label();
+            labelTitle.Text = "Multiplekser 8 → 1 (MUX 8:1)";
+            labelTitle.Font = new Font("Segoe UI", 16, FontStyle.Bold);
+            labelTitle.AutoSize = true;
+            labelTitle.Location = new Point(20, 15);
+            Controls.Add(labelTitle);
+
+            // data input group
+            GroupBox groupBoxInputs = new GroupBox();
+            groupBoxInputs.Text = "Wejścia danych (d0–d7)";
+            groupBoxInputs.Location = new Point(20, 60);
+            groupBoxInputs.Size = new Size(180, 360);
+            Controls.Add(groupBoxInputs);
+
+            CheckBox[] dataInputs = {
+                checkBox1, checkBox2, checkBox3, checkBox4,
+                checkBox5, checkBox6, checkBox7, checkBox8
+            };
+
+            string[] dataLabels = { "d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7" };
+
+            int y = 30;
+            for (int i = 0; i < dataInputs.Length; i++)
+            {
+                var cb = dataInputs[i];
+                cb.AutoSize = true;
+                cb.Text = dataLabels[i];
+                cb.Font = new Font("Segoe UI", 11);
+                cb.Location = new Point(20, y);
+                groupBoxInputs.Controls.Add(cb);
+                y += 35;
+            }
+
+            // selector
+            GroupBox groupBoxSelector = new GroupBox();
+            groupBoxSelector.Text = "Selector (s0–s2)";
+            groupBoxSelector.Location = new Point(300, 550);
+            groupBoxSelector.Size = new Size(260, 90);
+            Controls.Add(groupBoxSelector);
+
+            checkBox9.AutoSize = true;
+            checkBox10.AutoSize = true;
+            checkBox11.AutoSize = true;
+
+            checkBox9.Text = "s0";
+            checkBox10.Text = "s1";
+            checkBox11.Text = "s2";
+
+            checkBox9.Font = checkBox10.Font = checkBox11.Font = new Font("Segoe UI", 12);
+
+            checkBox9.Location = new Point(20, 30);   // s0
+            checkBox10.Location = new Point(90, 30);  // s1
+            checkBox11.Location = new Point(160, 30); // s2
+
+            groupBoxSelector.Controls.Add(checkBox9);
+            groupBoxSelector.Controls.Add(checkBox10);
+            groupBoxSelector.Controls.Add(checkBox11);
+
+            // output
+            GroupBox groupBoxOutput = new GroupBox();
+            groupBoxOutput.Text = "Wyjście (Y)";
+            groupBoxOutput.Location = new Point(620, 120);
+            groupBoxOutput.Size = new Size(180, 140);
+            Controls.Add(groupBoxOutput);
+
+            radioButton1.AutoSize = true;
+            radioButton1.Text = "output";
+            radioButton1.Font = new Font("Segoe UI", 14);
+            radioButton1.Location = new Point(40, 50);
+            radioButton1.TabStop = false;
+            groupBoxOutput.Controls.Add(radioButton1);
+            
+            // tabela prawdy
+            dataGridViewTruth = new DataGridView();
+            dataGridViewTruth.Size = new Size(320, 300);
+            dataGridViewTruth.Location = new Point(600, 300);
+            dataGridViewTruth.ReadOnly = true;
+            dataGridViewTruth.AllowUserToAddRows = false;
+            dataGridViewTruth.AllowUserToDeleteRows = false;
+            dataGridViewTruth.RowHeadersVisible = false;
+            dataGridViewTruth.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridViewTruth.MultiSelect = false;
+
+            // kolumny: s2, s1, s0, aktywne wejście, wynik Y
+            dataGridViewTruth.Columns.Add("s2", "s2");
+            dataGridViewTruth.Columns.Add("s1", "s1");
+            dataGridViewTruth.Columns.Add("s0", "s0");
+            dataGridViewTruth.Columns.Add("input", "Wejście aktywne");
+            dataGridViewTruth.Columns.Add("y", "Y");
+
+            dataGridViewTruth.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
+            dataGridViewTruth.Columns["s2"].Width = 40;
+            dataGridViewTruth.Columns["s1"].Width = 40;
+            dataGridViewTruth.Columns["s0"].Width = 40;
+            dataGridViewTruth.Columns["input"].Width = 110;
+            dataGridViewTruth.Columns["y"].Width = 40;
+
+            // wiersze 0 - 7 (000..111)
+            for (int i = 0; i < 8; i++)
+            {
+                int s0v = (i & 1);
+                int s1v = (i >> 1) & 1;
+                int s2v = (i >> 2) & 1;
+                string inputName = $"D{i}";
+
+                dataGridViewTruth.Rows.Add(s2v, s1v, s0v, inputName, "-");
+            }
+
+            Controls.Add(dataGridViewTruth);
+
+
+            // diagram panelu mux
+            panelMux = new Panel();
+            panelMux.Name = "panelMux";
+            panelMux.Location = new Point(230, 70);
+            panelMux.Size = new Size(350, 460);
+            panelMux.BorderStyle = BorderStyle.FixedSingle;
+            panelMux.BackColor = Color.White;
+
+            // podpięcie eventu rysującego
+            panelMux.Paint += PanelMux_Paint;
+
+            Controls.Add(panelMux);
+
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
     }
 }
